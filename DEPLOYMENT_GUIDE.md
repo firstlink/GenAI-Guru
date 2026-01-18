@@ -26,7 +26,6 @@ You must configure the following environment variables in your production enviro
 | Variable | Description | Example / Default |
 | :--- | :--- | :--- |
 | `DATABASE_URL` | **Required.** Connection string for your PostgreSQL DB. | `postgres://user:pass@host:5432/db` |
-| `NODE_ENV` | **Required.** Set to `production` for optimization. | `production` |
 | `SESSION_SECRET` | **Required.** Secret key for signing session cookies. | `a-very-long-random-string` |
 | `CONTACT_EMAIL` | Email to receive contact form submissions. | `admin@example.com` |
 | `EMAIL_USER` | Gmail/SMTP user for sending emails. | `admin@example.com` |
